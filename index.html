@@ -3,10 +3,19 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Umur kucing</title>
+        <title>Cats Age Converter</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
-        <h1>Jawaban di Bawah sini</h1>
+        <div class="container">
+            <h1>Cats Age Converter</h1>
+            <span>Masukan berapa tahun umur kucingmu saat ini:</span
+            ><input type="number" id="catAge" />
+            <button id="submit" onclick="ageCatConverter()">SEND</button>
+        </div>
+        <div class="container-2">
+            <p id="show-converter"></p>
+        </div>
         <script src="no3.js"></script>
     </body>
 </html>
